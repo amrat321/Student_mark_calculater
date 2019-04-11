@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+    
+
+    #div{
+       display: inline-block;
+       border-radius: 0px 5px 0px;
+       background: rgba(0, 0, 0, 0.6);
+       padding: 2%; 
+       width: 40%;
+       margin-left: 30%;
+       margin-top: 2%;
+   }
+   #span{
+       margin-left: 10%;
+   }
+   #bc{
+       background-image: url("lights-night-unsharp-blured.jpg");
+   }
+   #h2{
+       margin-left: 35%;
+       margin-top: 5%;
+       color: rgb(173, 173, 173);
+       font-weight: bolder;
+       font-size: 20px;
+   }
+   #h1{
+       color: rgb(231, 130, 31);
+       font-weight: bolder;
+       font-size: 20px;
+   }
+   #srch{
+       display: inline-block;
+       border-radius: 20px 50px 20px;
+       background: rgba(0, 0, 0, 0.6);
+       padding: 2%;      
+       width: 40%;
+       margin-left: 30%;
+       margin-top: 2%;     
+}
+p{
+       display: inline;
+}
+#s{
+       margin-right: 100px
+}
+#sr{
+    display: none;
+}
+#img2{
+    z-index: 1;
+    position:absolute;
+    top: 0px;
+    bottom: 0px
+}
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body id="bc">
+
+<h1 style="color:white; text-align: center ">Student Ruslt Form</h1>
+<form id="form">
+<div class="form-row" id="div">
+<h3 style="color:white;text-align: center ">Log In for check ruslt</h3>
+
+
+
+
+<label  style="color: white">Enter Email Address</label>           
+
+
+<div class="col">
+<input type="email" class="form-control" id="email" placeholder="Enter email Address"> <br>
+</div>
+<label style="color: white">Enter password</label> 
+<div class="col">
+<input type="password" class="form-control" id="password" placeholder="Enter password">
+</div>
+<span id="message" style="color:red"></span>
+
+                    
+<br><br>
+<button type="button" class="btn btn-info"  onclick="login()">Login</button>
+ <button type="button" class="btn btn-info"  onclick="btn1()">Sign Up</button>
+</div>
+</form> 
+
+</form>
+<!-- <img id="img2" width="1349px" height="640px" > -->
+
+</body>
+<script src="app.js"></script>
+</html>
